@@ -20,13 +20,17 @@ Google Colab is a free online tool from Google that lets you run Python code in 
 - Go to [colab.research.google.com](https://colab.research.google.com)
 - Sign in with your Google account if prompted
 
-### 2. Open the Notebook
+### 2. Open the Notebook from GitHub
+
+**You must open the notebook this way every time** — this ensures you always get the latest version.
 
 - In Colab, click **File > Open notebook**
 - Select the **GitHub** tab
 - Paste this URL: `https://github.com/arlocinsights/fine-tuning-exercise`
 - Click the search icon
 - Select `fine_tuning_exercise.ipynb` from the list
+
+Do **not** upload the notebook manually or use a saved copy — you may end up running an outdated version.
 
 ### 3. Enable GPU (Important!)
 
