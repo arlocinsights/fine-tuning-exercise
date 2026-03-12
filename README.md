@@ -15,24 +15,17 @@ Fine-tune a small language model (Qwen2.5-0.5B) into two distinct astrologer per
 
 Google Colab is a free online tool from Google that lets you run Python code in your browser — with access to a GPU (the hardware needed for AI training). No installation required.
 
-### 1. Open Google Colab
+### 1. Open the Notebook in Google Colab
 
-- Go to [colab.research.google.com](https://colab.research.google.com)
-- Sign in with your Google account if prompted
+Click this link to open the notebook directly:
 
-### 2. Open the Notebook from GitHub
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/arlocinsights/fine-tuning-exercise/blob/main/fine_tuning_exercise.ipynb)
 
-**You must open the notebook this way every time** — this ensures you always get the latest version.
+Sign in with your Google account if prompted.
 
-- In Colab, click **File > Open notebook**
-- Select the **GitHub** tab
-- Paste this URL: `https://github.com/arlocinsights/fine-tuning-exercise`
-- Click the search icon
-- Select `fine_tuning_exercise.ipynb` from the list
+**Always use this link** — it pulls the latest version from GitHub. Do not upload the notebook manually or use a saved copy.
 
-Do **not** upload the notebook manually or use a saved copy — you may end up running an outdated version.
-
-### 3. Enable GPU (Important!)
+### 2. Enable GPU (Important!)
 
 The exercise needs a GPU to run. Colab gives you one for free:
 
@@ -41,7 +34,7 @@ The exercise needs a GPU to run. Colab gives you one for free:
 - Under **Hardware accelerator**, select **T4 GPU**
 - Click **Save**
 
-### 4. Run the Notebook
+### 3. Run the Notebook
 
 The notebook is made up of **cells** — blocks of code or text. To run a cell:
 
@@ -52,7 +45,7 @@ The notebook is made up of **cells** — blocks of code or text. To run a cell:
 
 The first code cell will clone this repository and install all the required packages. This takes about 1-2 minutes.
 
-### 5. Fill in the TODOs
+### 4. Fill in the TODOs
 
 As you go through the notebook, you'll see three places where you need to fill in a value (marked with `___`):
 
@@ -62,7 +55,7 @@ As you go through the notebook, you'll see three places where you need to fill i
 
 To edit a code cell, just click on it and type.
 
-### 6. Edit the Training Data
+### 5. Edit the Training Data
 
 You'll also add 3 more training examples to each persona's data file:
 
